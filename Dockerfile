@@ -31,7 +31,8 @@ nexus-artifact-uploader \
 slack \
 workflow-aggregator \
 sonar \
-subversion
+subversion \
+cloudfoundry
 
 COPY resources/basic-security.groovy /usr/share/jenkins/ref/init.groovy.d/basic-security.groovy
 COPY resources/maven-global-settings-files.xml /usr/share/jenkins/ref/maven-global-settings-files.xml
